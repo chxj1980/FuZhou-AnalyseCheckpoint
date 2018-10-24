@@ -2,7 +2,9 @@
 
 #include <mysql/mysql.h>
 #include "DataDefine.h"
-#ifndef __WINDOWS__
+#ifdef __WINDOWS__
+#pragma comment( lib, "libmysql.lib" )
+#else
 #include <unistd.h>
 #include <stdio.h>
 #endif

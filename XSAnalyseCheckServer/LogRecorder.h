@@ -8,6 +8,9 @@
 #include <log4cxx/logstring.h>
 #include <log4cxx/helpers/exception.h>
 #include <log4cxx/helpers/loglog.h>
+#ifdef __WINDOWS__
+#pragma comment( lib, "log4cxx_x64.lib" )
+#endif
 using namespace std;
 using namespace log4cxx;
 using namespace log4cxx::helpers;

@@ -5,7 +5,7 @@
 #include "FaceFeatureStruct.h"
 
 #ifdef __WINDOWS__
-#include "frsengineV.h"
+#include "frsengineV/frsengineV.h"
 #pragma comment( lib, "frsengineV.lib" )
 using namespace NeoFaceV;
 #else

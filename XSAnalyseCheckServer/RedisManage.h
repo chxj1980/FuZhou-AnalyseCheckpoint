@@ -2,7 +2,7 @@
 
 #ifdef __WINDOWS__
 #include "acl_cpp/lib_acl.hpp"
-#include "lib_acl.h"
+#include "acl/lib_acl.h"
 
 #ifdef _DEBUG
 #pragma comment( lib, "lib_acl_cpp_vc2010_x64d.lib" )

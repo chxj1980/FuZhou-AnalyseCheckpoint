@@ -2,7 +2,7 @@
 
 #include "DataDefine.h"
 #include <list>
-#include <zmq.h>
+#include <zeromq/zmq.h>
 #ifdef __WINDOWS__
 #pragma comment( lib, "libzmq-v100-mt-gd-4_0_4.lib" )
 #else
