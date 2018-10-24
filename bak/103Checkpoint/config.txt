@@ -1,0 +1,12 @@
+ServerID=44030000002510000001
+ThreadMaxCount=200000
+DBIP=192.168.8.103
+DBPort=3306
+DBName=analysechecklibdb
+DBUser=root
+DBPd=xinyi2513
+PubServerIP=192.168.8.102
+PubServerPort=8100
+SubServerPort=8101
+RedisIP=192.168.8.102
+RedisPort=6379
